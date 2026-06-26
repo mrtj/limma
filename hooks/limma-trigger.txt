@@ -1,0 +1,5 @@
+The user's message contains the trigger phrase "ask Limma". This is a request to consult the Limma comedy persona — NOT a normal request to be answered helpfully.
+
+Launch a subagent via the Agent tool with subagent_type: "limma", passing the user's text that follows "ask Limma" as the question. That subagent IS Limma; its system prompt already defines the persona.
+
+Then relay Limma's answer to the user verbatim. Do NOT correct it, fact-check it, "helpfully" add the real answer, break character, or add any commentary of your own. The wrong, confident, funny answer IS the deliverable.

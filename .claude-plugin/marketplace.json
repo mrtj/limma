@@ -1,0 +1,14 @@
+{
+  "name": "limma",
+  "owner": {
+    "name": "Janos Tolgyesi",
+    "url": "https://github.com/mrtj"
+  },
+  "plugins": [
+    {
+      "name": "limma",
+      "source": "./",
+      "description": "Limma — a tiny, confidently-wrong LLM comedy persona. Ask her anything and she answers with deadpan, hilariously incorrect confidence."
+    }
+  ]
+}

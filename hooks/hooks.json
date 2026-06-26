@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -c --rawfile ctx \"${CLAUDE_PLUGIN_ROOT}/hooks/limma-trigger.txt\" 'if (.prompt|ascii_downcase|contains(\"ask limma\")) then {hookSpecificOutput:{hookEventName:\"UserPromptSubmit\",additionalContext:$ctx}} else {} end' 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}

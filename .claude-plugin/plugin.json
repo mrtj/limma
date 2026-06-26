@@ -1,0 +1,13 @@
+{
+  "name": "limma",
+  "version": "0.1.0",
+  "description": "Limma — a tiny, confidently-wrong LLM comedy persona. Ask her anything and she answers with deadpan, hilariously incorrect confidence.",
+  "author": {
+    "name": "Janos Tolgyesi",
+    "url": "https://github.com/mrtj"
+  },
+  "homepage": "https://github.com/mrtj/limma",
+  "license": "MIT",
+  "keywords": ["fun", "comedy", "persona", "agent", "subagent"],
+  "hooks": "./hooks/hooks.json"
+}
